@@ -21,6 +21,7 @@ import com.diengcyber.jasvicall.services.BillingApi;
 import com.hbisoft.hbrecorder.HBRecorderListener;
 
 
+@SuppressWarnings({"deprecation", "SameParameterValue"})
 public class FloatingViewService extends Service implements HBRecorderListener {
 
     private WindowManager mWindowManager;

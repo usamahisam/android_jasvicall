@@ -34,6 +34,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+@SuppressWarnings({"deprecation", "SameParameterValue"})
 public class SettingRecorder extends ContextWrapper implements HBRecorderListener {
 
     Context context;
